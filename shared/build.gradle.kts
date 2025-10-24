@@ -8,7 +8,7 @@ plugins {
     id("com.android.library")
     alias(libs.plugins.kotlinxSerialization)
     alias(libs.plugins.skie)
-    id("dev.icerock.mobile.multiplatform-resources")
+    alias(libs.plugins.moko.multiplatform.resources)
     id("org.jetbrains.kotlin.plugin.parcelize")
     id("maven-publish")
 }

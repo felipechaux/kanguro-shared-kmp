@@ -254,3 +254,4 @@ kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = 
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlinVersion" }
 kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinVersion" }
 skie = { id = "co.touchlab.skie", version.ref = "skie" }
+moko-multiplatform-resources = { id = "dev.icerock.mobile.multiplatform-resources", version.ref = "mokoResourcesVersion" }

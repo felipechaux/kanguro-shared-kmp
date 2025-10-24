@@ -1,4 +1,3 @@
-gradle.startParameter.excludedTaskNames.addAll(listOf(":build-logic:convention:testClasses"))
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
