@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat bubble main body - outlined -->
+  <rect x="2.4" y="3.6" width="19.2" height="13.2" rx="2.4" stroke="#9648FF" stroke-width="2" fill="none"/>
+  <!-- Chat bubble tail - outlined -->
+  <path d="M6 16.8 L3.6 20.4 L9.6 16.8 Z" stroke="#9648FF" stroke-width="2" fill="none" stroke-linejoin="round"/>
+</svg>

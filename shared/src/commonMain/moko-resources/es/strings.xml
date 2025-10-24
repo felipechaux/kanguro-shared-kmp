@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="live_vet_title">Veterinario en vivo 24/7</string>
+    <string name="live_vet_subtitle">Servicio de televeterinaria operado por Airvet</string>
+    <string name="live_vet_policy">Tu póliza de Kanguro ahora incluye chat en vivo o video con un veterinario. Sin costo</string>
+    <string name="live_vet_description">e inmediato - Contacta a un veterinario certificado en menos de 3 minutos.</string>
+    <string name="live_vet_description_2">Todos los veterinarios están certificados - ellos pueden recetar medicamentos para tu mascota. Todo sin salir de casa.</string>
+    <string name="live_vet_description_3">Sin costo adicional - El servicio de Airvet está incluido con tu seguro de mascotas Kanguro.</string>
+    <string name="live_vet_description_4">Bilingüe - Veterinarios disponibles en inglés y español.</string>
+    <string name="live_vet_description_highlight">24/7</string>
+    <string name="live_vet_step_1_full_text">Descarga aquí la aplicación Airvet.</string>
+    <string name="live_vet_step_1">la aplicación Airvet</string>
+    <string name="live_vet_step_1_highlight">Descarga</string>
+    <string name="live_vet_step_1_download_app_highlight">aquí</string>
+    <string name="live_vet_step_2_highlight">Regístrate</string>
+    <string name="live_vet_step_2_button">copiar</string>
+    <string name="live_vet_step_2_button_clicked">copiado</string>
+    <string name="live_vet_step_3">en menos de un minuto.</string>
+    <string name="live_vet_step_3_highlight">Habla con un veterinario</string>
+    <string name="live_vet_button">Descarga aquí la aplicación Airvet</string>
+    <string name="airvet_link_error">Error al abrir Airvet</string>
+
+    <!-- Vet Connection Screen -->
+    <string name="vet_connection_title">Conexión Veterinaria</string>
+    <string name="vet_connection_subtitle">Conéctate con servicios veterinarios</string>
+    <string name="vet_connection_main_message">Si necesitas un veterinario también podemos ayudarte con Airvet</string>
+    <string name="vet_connection_sign_up_airvet">Regístrate en Airvet</string>
+    <string name="vet_connection_open_airvet">Abrir Airvet</string>
+    <string name="vet_connection_continue_message">continúa para ver veterinarios cerca de ti</string>
+    <string name="find_your_vet">Encuentra tu veterinario</string>
+
+    <string name="quest_system_title">Aprovecha al máximo tu póliza</string>
+    <string name="quest_claim_button">Redimir</string>
+    <string name="claimed_button_text">Reclamado!</string>
+
+    <string name="click_here_to_update_payment">Actualiza tu pago</string>
+
+    <string name="petter_logo_content_description">Wellfold</string>
+    <string name="petter_main_heading">Kanguro X Wellfold\nMás que un seguro\nes dinero de vuelta</string>
+    <string name="petter_sub_heading">Ahora puedes ganar cashback\nen tus compras diarias, sin\nesfuerzo</string>
+    <string name="petter_wellfold_description">Cuida de tu mascota y tu hogar.\nCompra donde quieras. Gana\ncashback en todo y canjéalo sin complicaciones.</string>
+    <string name="petter_double_benefits">Recompensas dobles:</string>
+    <string name="petter_benefits_description">Gana puntos con tu tarjeta y con Kanguro en Walmart, CVS, Uber Eats y más.</string>
+    <string name="petter_cash_rewards">Canje rápido:</string>
+    <string name="petter_rewards_description">Usa tu cashback para obtener tarjetas de regalo de Amazon, Target o Walmart.</string>
+    <string name="petter_join_now">Unirse ahora</string>
+    <string name="petter_go_to_my_account">Ir a Mi cuenta</string>
+    <string name="petter_terms">Al hacer clic en "Unirse ahora", aceptas permitir que Kanguro Insurance comparta tu nombre y número de teléfono con Wellfold con fines de registro.</string>
+    <string name="petter_close_content_description">Cerrar Wellfold</string>
+
+    <string name="quest_benefit">Tu Beneficio</string>
+    <string name="quest_wellfold_title">Regístrate en Wellfold Rewards</string>
+    <string name="quest_wellfold_description">Tu póliza de Kanguro te da acceso a recompensas en efectivo por tus compras diarias en las mejores tiendas!\nEs gratis, fácil de usar y no necesitas una tarjeta o app adicional.</string>
+    <string name="quest_wellfold_benefit_description">Gana reembolsos en efectivo fácilmente mientras compras en tus lugares favoritos como Walmart, CVS, Sephora y muchos más.</string>
+    <string name="quest_wellfold_action">¡Únete ahora!</string>
+
+    <string name="quest_telemedicine_title">Telemedicina 24/7 gratis</string>
+    <string name="quest_telemedicine_description">Tu poliza de Kanguro te permite hablar con veterinarios certificados directamente desde tu teléfono.\nEs gratis, disponible 24/7 y en español/ingles.</string>
+    <string name="quest_telemedicine_benefit_description">Manten a tu mascota segura, sin salir de casa y por $0.\n¡Te dirigiran a atención física si es necesario!</string>
+    <string name="quest_telemedicine_action">Reclamar</string>
+
+    <string name="quest_medical_history_title">Sube los registros médicos</string>
+    <string name="quest_medical_history_description">Por favor sube los registros médicos de\n%s</string>
+    <string name="quest_medical_history_your_pet">Tu mascota</string>
+    <string name="quest_medical_history_benefit_description">Con los registros médicos, podemos procesar tus reclamaciones ¡3–4 días más rápido!</string>
+    <string name="quest_medical_history_action">Subir ahora</string>
+    <string name="petter_error">Wellfold no está disponible en este momento, por favor intenta de nuevo en un momento.</string>
+    <string name="select_policy_title">SELECCIONAR PÓLIZA</string>
+    <string name="select_policy_subtitle">Selecciona la póliza para tu reclamación.</string>
+    <string name="describe_incident_title">DESCRIBIR INCIDENTE</string>
+    <string name="describe_incident_description_label">Descripción</string>
+    <string name="describe_incident_placeholder">Describe el incidente...</string>
+    <string name="upload_documents_title">Por favor, adjunte cualquier documento, foto, video, informe policial, etc. que nos ayude a comprender la naturaleza y el alcance de los daños.</string>
+    <string name="choose_file_button">Elegir Archivo</string>
+    <string name="choose_documents_button">📄 Elegir Documentos</string>
+    <string name="choose_images_button">📷 Elegir Imágenes/Videos</string>
+    <string name="choose_file_button">Elegir archivo</string>
+    <string name="contact_info_title">INFORMACIÓN DE CONTACTO</string>
+    <string name="email_address_label">Correo electrónico:</string>
+    <string name="enter_email_placeholder">Ingresa tu correo electrónico</string>
+    <string name="phone_number_label">Número de teléfono:</string>
+    <string name="enter_phone_placeholder">Ingresa tu número de teléfono</string>
+    <string name="submit_claim_button">ENVIAR RECLAMACIÓN</string>
+    <string name="my_claims_title">MIS RECLAMACIONES</string>
+    <string name="create_new_claim_button">Crear nueva reclamación</string>
+    <string name="policy_label">Póliza:</string>
+    <string name="status_label">Estado:</string>
+    <string name="claim_code">Reclamacion:</string>
+    <string name="date_created_label">Fecha de creación:</string>
+    <string name="incident_date_label">Fecha del incidente:</string>
+    <string name="incident_date_description">Por favor selecciona la fecha en que ocurrió el incidente.</string>
+    <string name="select_date_button">Seleccionar fecha</string>
+    <string name="ok_button">Aceptar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="select_incident_date_headline">Selecciona la fecha del incidente</string>
+    <string name="selected_label">Seleccionado:</string>
+    <string name="invalid_us_phone_error">Por favor ingresa un número de teléfono válido de EE.UU.</string>
+    <string name="selected_date_not_allowed_error">La fecha seleccionada no es válida. Por favor elige una fecha válida.</string>
+    <string name="profile_updated_success">Perfil actualizado correctamente</string>
+    <string name="profile_update_failed">Error al actualizar el perfil.</string>
+    <string name="unknown_error_occurred">Ocurrió un error desconocido</string>
+    <string name="error_label">Error:</string>
+    <string name="attached_files_label">Archivos adjuntos:</string>
+    <string name="remove_attachment_button">Eliminar</string>
+    <string name="no_claims_found">No se encontraron reclamaciones</string>
+    <string name="claim_submitted_success">Gracias, hemos recibido tu reclamación. Te enviaremos un correo electrónico de confirmación imediatamente. Nos pondremos en contacto contigo dentro de un día hábil.</string>
+
+    <!-- Pharmacy Strings -->
+    <string name="pharmacy_pet_pharmacy">Farmacia para Mascotas</string>
+    <string name="pharmacy_intro_1">Un nuevo beneficio para clientes Kanguro \nAhora tienes acceso a una <b>farmacia para mascotas</b> con productos de confianza y precios especiales \nDesde medicinas hasta suplementos</string>
+    <string name="pharmacy_intro_2">¡todo en un solo lugar!</string>
+    <string name="pharmacy_service_1">Medicamentos</string>
+    <string name="pharmacy_service_2">Suplementos</string>
+    <string name="pharmacy_service_3">Cuidado diario</string>
+    <string name="pharmacy_service_4">Y más</string>
+    <string name="pharmacy_convenience">Compra fácil, rápida y segura\nVisita la farmacia ahora</string>
+    <string name="pharmacy_cta_button">Visita la farmacia ahora</string>
+    <string name="pharmacy_logo_content_description">Logo de Kanguro</string>
+    <string name="pharmacy_medication_icon_content_description">Icono de medicamento</string>
+    <string name="pharmacy_supplement_icon_content_description">Icono de suplemento</string>
+    <string name="pharmacy_wellness_icon_content_description">Icono de bienestar</string>
+    <string name="pharmacy_shopping_icon_content_description">Icono de compras</string>
+    <string name="pharmacy_close_content_description">Cerrar</string>
+    <string name="pharmacy_error_loading">Error al cargar el enlace de la farmacia</string>
+    
+    <!-- Payment Arrears Messages -->
+    <string name="amount_due">Valor pendiente: %s</string>
+    <string name="pet_single_payment_overdue">Tu pago para la cobertura de %s está vencido</string>
+    <string name="pet_multiple_payments_overdue">Los pagos de las coberturas de %s están vencidos</string>
+    <string name="renters_payment_overdue">El pago de tu cobertura de tu %s está vencido</string>
+    <string name="both_coverages_payment_overdue">Los pagos de tus coberturas de Pet y Renters están en mora</string>
+    <string name="property_type_apartment">apartamento</string>
+    <string name="property_type_townhouse">casa adosada</string>
+    <string name="conjunction_and">y</string>
+    <string name="day_overdue">día de atraso</string>
+    <string name="days_overdue">días de atraso</string>
+</resources>

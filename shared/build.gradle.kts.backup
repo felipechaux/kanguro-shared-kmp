@@ -1,0 +1,135 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
+
+plugins {
+    kotlin("multiplatform")
+    kotlin("plugin.compose")
+    id("org.jetbrains.compose")
+    id("com.android.library")
+    alias(libs.plugins.kotlinxSerialization)
+    alias(libs.plugins.skie)
+    id("dev.icerock.mobile.multiplatform-resources")
+    id("org.jetbrains.kotlin.plugin.parcelize")
+}
+
+kotlin {
+    androidTarget {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_17)
+        }
+    }
+    val xcf = XCFramework()
+    listOf(
+        iosX64(),
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach {
+        it.binaries.framework {
+            baseName = "shared"
+            binaryOption("bundleId", "com.insurtech.kanguro.shared")
+            freeCompilerArgs += listOf("-Xoverride-konan-properties=minVersion.ios=16.0;minVersionSinceXcode15.ios=16.0")
+            xcf.add(this)
+            isStatic = true
+            export("dev.icerock.moko:resources:0.24.5")
+            export("dev.icerock.moko:graphics:0.9.0")
+        }
+    }
+    sourceSets {
+        androidMain {
+            kotlin.srcDir("build/generated/moko/androidMain/src")
+            dependencies {
+                implementation(libs.ktor.client.okhttp)
+                implementation(compose.preview)
+                implementation(compose.components.uiToolingPreview)
+                api(libs.koin.android)
+                api(libs.koin.androidx.compose)
+                // Posthog
+                implementation(libs.posthog.android)
+            }
+        }
+        commonMain {
+            dependencies {
+                implementation(compose.foundation)
+                implementation(compose.material)
+                implementation(compose.ui)
+                implementation(compose.components.uiToolingPreview)
+                implementation(compose.material3)
+                implementation(libs.material.icons.core)
+                implementation(compose.runtime)
+                implementation(compose.components.resources)
+                implementation(libs.compose.view.model)
+                implementation(libs.ktor.client.core)
+                implementation(libs.ktor.client.contentnegotiation)
+                implementation(libs.ktor.client.serialization.json)
+                api(libs.moko.resources)
+                api(libs.moko.resources.compose) // for compose multiplatform
+                api(libs.datastore.preferences)
+                api(libs.datastore)
+
+                api(libs.koin.core)
+                implementation(libs.koin.compose)
+                implementation(libs.koin.compose.viewmodel)
+                implementation(libs.lifecycle.viewmodel)
+                api(libs.compose.webview.multiplatform)
+                implementation(libs.coil3.compose)
+                implementation(libs.coil3.network.ktor)
+                implementation(libs.androidx.navigation.compose)
+                implementation(libs.kotlinx.datetime)
+                implementation(libs.calf.file.picker)
+            }
+        }
+        commonTest {
+            dependencies {
+            }
+        }
+        iosMain {
+            dependencies {
+                implementation(libs.ktor.client.darwin)
+            }
+        }
+    }
+}
+
+android {
+    namespace = "com.insurtech.kanguro.shared"
+    compileSdk = 35
+    sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    sourceSets["main"].res.srcDirs("src/androidMain/res")
+    sourceSets["main"].resources.srcDirs("src/commonMain/resources")
+
+    defaultConfig {
+        minSdk = 24
+    }
+    buildFeatures {
+        compose = true
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+    buildTypes {
+        getByName("debug") {
+            isMinifyEnabled = false
+        }
+    }
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = false
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+multiplatformResources {
+    resourcesPackage.set("com.insurtech.kanguro.shared.sharingresources")
+}
+
+skie {
+    features {
+        enableSwiftUIObservingPreview = true
+    }
+}

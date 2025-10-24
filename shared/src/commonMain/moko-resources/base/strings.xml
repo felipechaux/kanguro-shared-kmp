@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="live_vet_title">Live Vet 24/7</string>
+    <string name="live_vet_subtitle">Televet service Powered by Airvet</string>
+    <string name="live_vet_policy">Your Kanguro Policy now includes live chat or video with a vet. Free of charge</string>
+    <string name="live_vet_description">and immediate - Contact a certified vet at any time, within the next 3 minutes</string>
+    <string name="live_vet_description_2">All vets are certified - they can prescribe medication for your pet. All without leaving the house</string>
+    <string name="live_vet_description_3">Free of charge - The airvet service is included with your Kanguro Pet Insurance</string>
+    <string name="live_vet_description_4">Bilingual - Vets in English and Spanish are available</string>
+    <string name="live_vet_description_highlight">24/7</string>
+    <string name="live_vet_step_1_full_text">Download the Airvet App here.</string>
+    <string name="live_vet_step_1">the Airvet App</string>
+    <string name="live_vet_step_1_highlight">Download</string>
+    <string name="live_vet_step_1_download_app_highlight">here</string>
+    <string name="live_vet_step_2_highlight">Sign up</string>
+    <string name="live_vet_step_2_button">copy</string>
+    <string name="live_vet_step_2_button_clicked">copied</string>
+    <string name="live_vet_step_3">in under a minute.</string>
+    <string name="live_vet_step_3_highlight">Talk to a vet</string>
+    <string name="live_vet_button">Download the Airvet App</string>
+    <string name="airvet_link_error">Error opening Airvet</string>
+    
+    <!-- Vet Connection Screen -->
+    <string name="vet_connection_title">Vet Connection</string>
+    <string name="vet_connection_subtitle">Connect with veterinary services</string>
+    <string name="vet_connection_main_message">If you need a vet we can also help with airvet</string>
+    <string name="vet_connection_sign_up_airvet">Sign up in airvet</string>
+    <string name="vet_connection_open_airvet">Open Airvet</string>
+    <string name="vet_connection_continue_message">continue to see vets near to you</string>
+    <string name="find_your_vet">Find your vet</string>
+    
+    <string name="quest_system_title">Lets get the most out of your policy</string>
+    <string name="quest_claim_button">Redeem</string>
+    <string name="claimed_button_text">Claimed!</string>
+
+    <string name="click_here_to_update_payment">Update your payment</string>
+
+    <string name="petter_logo_content_description">Petter Logo</string>
+    <string name="petter_main_heading">Kanguro X Wellfold\nMore Than Insurance\nIt's Money Back</string>
+    <string name="petter_sub_heading">Care for your pet &amp; home.\nShop anywhere. Earn cashback on it\nall-redeem it effortlessly.</string>
+    <string name="petter_double_benefits">Double rewards:</string>
+    <string name="petter_benefits_description">Earn points with your card and with Kanguro at Walmart, CVS, Uber Eats, and more.</string>
+    <string name="petter_cash_rewards">Quick redemption:</string>
+    <string name="petter_rewards_description">Use your cashback for gift cards from Amazon, Target, or Walmart.</string>
+    <string name="petter_join_now">Join now</string>
+    <string name="petter_go_to_my_account">Go to my account</string>
+    <string name="petter_terms">By clicking Join now, you agree to allow Kanguro Insurance to share your name and phone number with Wellfold for registration purposes.</string>
+    <string name="petter_close_content_description">Close Petter</string>
+
+    <string name="quest_benefit">You Benefit</string>
+    <string name="quest_wellfold_title">Kanguro and Wellfold</string>
+    <string name="quest_wellfold_description">Your Kanguro policy gives you access to cashback rewards on everyday purchases at top stores!\nIt’s free to join, easy to use, and requires no extra card or app.</string>
+    <string name="quest_wellfold_benefit_description">Earn cashback effortlessly while shopping at your favorite places like Walmart, CVS, Sephora, and more.</string>
+    <string name="quest_wellfold_action">Join now!</string>
+
+    <string name="quest_telemedicine_title">Sign up for Pet Telemedicine</string>
+    <string name="quest_telemedicine_description">Your Kanguro pet policy lets you talk to certified vets right from your phone!\nIts free of charge, 24/7 and bilingual en/es</string>
+    <string name="quest_telemedicine_benefit_description">Keep your pet safe, all without leaving the house or paying a cent.\nWill direct you to urgent care if needed!</string>
+    <string name="quest_telemedicine_action">Sign up now!</string>
+
+    <string name="quest_medical_history_title">Upload Medical Records</string>
+    <string name="quest_medical_history_description">Please upload the medical records for\n%s</string>
+    <string name="quest_medical_history_your_pet">Your pet</string>
+    <string name="quest_medical_history_benefit_description">With the medical records, we can process your claim up to 4 days faster!</string>
+    <string name="quest_medical_history_action">Upload now</string>
+    <string name="petter_error">Wellfold is unavailable at the moment, please try again in a moment.</string>
+
+    <string name="select_policy_title">SELECT POLICY</string>
+    <string name="select_policy_subtitle">Select the policy for your claim.</string>
+    <string name="describe_incident_title">DESCRIBE INCIDENT</string>
+    <string name="describe_incident_description_label">Description</string>
+    <string name="describe_incident_placeholder">Describe the incident...</string>
+    <string name="upload_documents_title">Please upload any relevant documents, photos and videos, police reports etc that help us to understand the nature and extend of the damage.</string>
+    <string name="choose_file_button">Choose File</string>
+    <string name="choose_documents_button">📄 Choose Documents</string>
+    <string name="choose_images_button">📷 Choose Images/Videos</string>
+    <string name="contact_info_title">CONTACT INFO</string>
+    <string name="email_address_label">Email Address:</string>
+    <string name="enter_email_placeholder">Enter your email</string>
+    <string name="phone_number_label">Phone Number:</string>
+    <string name="enter_phone_placeholder">Enter your phone number</string>
+    <string name="submit_claim_button">SUBMIT CLAIM</string>
+    <string name="my_claims_title">MY CLAIMS</string>
+    <string name="create_new_claim_button">Create New Claim</string>
+    <string name="policy_label">Policy:</string>
+    <string name="status_label">Status:</string>
+    <string name="claim_code">Claim Code:</string>
+    <string name="date_created_label">Date Created:</string>
+    <string name="incident_date_label">Incident Date:</string>
+    <string name="incident_date_description">Please select the date when the incident occurred.</string>
+    <string name="select_date_button">Select Date</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="select_incident_date_headline">Select Incident Date</string>
+    <string name="selected_label">Selected:</string>
+    <string name="invalid_us_phone_error">Please enter a valid US phone number</string>
+    <string name="selected_date_not_allowed_error">Selected date is not allowed. Please choose a valid date.</string>
+    <string name="profile_updated_success">Profile updated successfully</string>
+    <string name="profile_update_failed">Profile update failed.</string>
+    <string name="unknown_error_occurred">Unknown error occurred</string>
+    <string name="error_label">Error:</string>
+    <string name="attached_files_label">Attached Files:</string>
+    <string name="remove_attachment_button">Remove</string>
+    <string name="no_claims_found">No claims found</string>
+    <string name="claim_submitted_success">Thank you, we have received your claim. You will get a confirmation email sent right away. You can expect us to get in contact with you within one business day.</string>
+
+    <!-- Pharmacy Strings -->
+    <string name="pharmacy_pet_pharmacy">Pet Pharmacy</string>
+    <string name="pharmacy_intro_1">A new benefit for Kanguro customers \nNow you have access to a full pet pharmacy with trusted products and special prices \nFrom meds to supplements</string>
+    <string name="pharmacy_intro_2">all in one place!</string>
+    <string name="pharmacy_service_1">Medications</string>
+    <string name="pharmacy_service_2">Supplements</string>
+    <string name="pharmacy_service_3">Daily care</string>
+    <string name="pharmacy_service_4">And more</string>
+    <string name="pharmacy_convenience">Easy, fast, and secure shopping\nVisit the pharmacy now</string>
+    <string name="pharmacy_cta_button">Visit the pharmacy now</string>
+    <string name="pharmacy_logo_content_description">Kanguro logo</string>
+    <string name="pharmacy_medication_icon_content_description">Medication icon</string>
+    <string name="pharmacy_supplement_icon_content_description">Supplement icon</string>
+    <string name="pharmacy_wellness_icon_content_description">Wellness icon</string>
+    <string name="pharmacy_shopping_icon_content_description">Shopping icon</string>
+    <string name="pharmacy_close_content_description">Close</string>
+    <string name="pharmacy_error_loading">Error loading pharmacy link</string>
+    
+    <!-- Payment Arrears Messages -->
+    <string name="amount_due">Amount due: %s</string>
+    <string name="pet_single_payment_overdue">Your payment for %s\'s coverage is overdue</string>
+    <string name="pet_multiple_payments_overdue">Your payments for %s coverages are overdue</string>
+    <string name="renters_payment_overdue">Your payment for your %s coverage is overdue</string>
+    <string name="both_coverages_payment_overdue">Your payments for your pet &amp; renters coverages are overdue</string>
+    <string name="property_type_apartment">apartment</string>
+    <string name="property_type_townhouse">townhouse</string>
+    <string name="conjunction_and">and</string>
+    <string name="day_overdue">day overdue</string>
+    <string name="days_overdue">days overdue</string>
+</resources>

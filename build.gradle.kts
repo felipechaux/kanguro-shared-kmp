@@ -1,8 +1,6 @@
 plugins {
-    // Apply the same plugins as needed for dependency management
     alias(libs.plugins.android.library) apply false
-    alias(libs.plugins.jetbrains.kotlin.multiplatform) apply false
-    alias(libs.plugins.jetbrains.kotlin.android) apply false
+    alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.compose.compiler) apply false
 }
 
