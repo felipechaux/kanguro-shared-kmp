@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "KanguroShared",
             url: "https://github.com/kanguroseguro/kanguro-shared-kmp/releases/download/v1.0.0/KanguroShared.xcframework.zip",
-            checksum: "placeholder-checksum-will-be-updated-by-ci"
+            checksum: "b950b77a3b2a88e93fb53b4a423d2891810fae820f3df4dca0ce867391bbca04"
         )
     ]
 )
